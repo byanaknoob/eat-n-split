@@ -2,7 +2,7 @@
   "name": "eat-n-split",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://yourusername.github.io/eat-n-split",
+  "homepage": "https://byanaknoob.github.io/eat-n-split",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.6.4",
