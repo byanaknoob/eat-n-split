@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import FriendsList from './components/FriendsList';
-import FormAddFriend from './components/FormAddFriend';
-import FormSplitBill from './components/FormSplitBill';
-import Button from './components/Button';
-import { initialFriends } from './data/initialFriends';
+import FriendsList from "./components/FriendsList";
+import FormAddFriend from "./components/FormAddFriend";
+import FormSplitBill from "./components/FormSplitBill";
+import Button from "./components/Button";
+import { initialFriends } from "./data/initialFriends";
 
 export default function App() {
   const [showAddFriendForm, setShowAddFriendForm] = useState(false);
@@ -49,6 +49,7 @@ export default function App() {
           <FormSplitBill
             selectedFriend={selectedFriend}
             onSplitBill={handleSplitBill}
+            key={selectedFriend.id}
           />
         </div>
       )}
